@@ -1,0 +1,217 @@
+@import url('https://fonts.cdnfonts.com/css/russian');
+.header1{
+    top: 0;
+    position:relative;
+    width: 100%;
+}
+.div1{
+    float: left;
+}
+.img1{
+    width: 100% ;
+    height: 60vw;
+    position: relative;
+    background-image: url("./sources/img15.jpeg");
+      object-fit: fill;
+  }
+  .image{
+    background-image: url("./sources/img15.jpeg");
+      object-fit: fill;
+      background-size: contain;
+
+
+  }
+.div2{
+    color: aliceblue;
+    font-size: 3.5vw;
+    font-weight: 600;
+    width: 30%;
+    padding: 10% 0% 0% 10%;
+
+}
+.div3{
+    color: #e6e5e5;    ;
+    font-size: 1.1vw;
+    font-weight:lighter ;
+    width: 35%;
+    padding: 0% 0% 0% 10%;
+
+}
+.div4{
+    margin: 5% ;
+    text-align: center;
+    
+
+}
+.div5{
+    padding-bottom: 7%;
+
+}
+.p1{
+    font-size: 5vw;
+    font-weight: 800;
+}
+.p2{
+    font-size: 2.2vw;
+    color: #858383;
+}
+
+.extdiv1{
+    justify-content: center;
+    text-align: justify;
+
+}
+.extdiv2{
+    margin-right: 2%;
+}
+.p3{
+    font-weight: bold;
+
+}
+.p4{
+    color: #858383;
+
+
+}
+.btn1{
+    color: white;
+    background-color: black;
+}
+.img2{
+    width: 100%;
+    min-height: 40vw;
+    height: auto;
+    position: relative;
+    background-image: url(./sources/img15.jpeg);
+    object-fit: fill;
+    background-size: contain;
+
+}
+
+
+.div6{
+    color: aliceblue;
+    font-size: 3.5vw;
+    font-weight: 600;
+    padding: 10% 0% 0% 15%;
+
+}
+.div7{
+    color: #e6e5e5;    ;
+    font-size: 1.1vw;
+    font-weight:lighter ;
+    padding: 0% 0% 0% 15%;
+
+}
+.p5{
+    color: #908d8d;
+}
+
+.extdiv3{
+    margin: auto;
+}
+.extdiv4{
+    margin: auto;
+    justify-content: center;
+}
+.img3{
+    background-image: url(./sources/1.jpeg);
+    height: 22rem;
+    width: auto;
+    object-fit: fill;
+    margin: 2%;
+    background-size: contain;
+
+}
+.img4{
+    background-image: url(./sources/2.jpeg);
+    height: 22rem;
+    width: auto;
+    object-fit: fill;
+    margin: 2%;
+    background-size: contain;
+
+}
+
+.img5{
+    background-image: url(./sources/4.jpeg);
+    height: 22rem;
+    width: auto;
+    object-fit: fill;
+    margin: 2%;
+    background-size: contain;
+
+}
+
+.img6{
+    background-image: url(./sources/5.jpeg);
+    height: 22rem;
+    width: auto;
+    object-fit: fill;
+    margin: 2%;
+    background-size: contain;
+
+
+}
+.div8{
+    padding: 3%;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(0, 195, 255) , rgb(147, 214, 240));
+
+}
+.p6{
+    color: white;
+    font-size: 2.1vw;
+}
+.btn2{
+    background-color: white;
+    color: black;
+    margin-left: 2%;
+        border-color: white;
+        font-size: 1.1vw;
+}
+.div9{
+    padding: 1%;
+    text-align: center;
+    color: white;
+    background-color: black;
+
+}
+.p7{
+    font-family: "Courier New", Courier, monospace;
+}
+
+
+.search-click {
+    border: 1px solid #ccc;
+    outline: none;
+    background-size: 22px;
+    background-position: 13px;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    padding: 25px;
+    transition: all 0.5s;
+    background-image: url(./sources/search.svg) ;
+    background-repeat: no-repeat;
+
+  }
+  .search-click:focus {
+    width: 300px;
+    padding-left: 50px;
+  }
+  .search-click {
+    position: relative;
+    overflow: hidden;
+    height: 50px;
+  }
+  .search-click input {
+    background: transparent;
+    border: 1px solid #ccc;
+    outline: none;
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    left: 0%;
+    padding: 10px;
+  }
